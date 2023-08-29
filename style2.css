@@ -1,0 +1,128 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body 
+{
+    background: rgb(119,146,233);
+    background: linear-gradient(90deg, rgba(119,146,233,1) 0%, rgba(234,55,245,1) 100%); 
+}
+.card
+{
+    box-shadow: 30px 30px 28px rgba(0,0,0,.25);
+}
+.card {     
+  max-height: 700px;
+  overflow-y: auto; 
+}
+.error
+{
+  color: #DC3545;
+}
+#alertID
+{
+  display: none;
+  width: 100%;
+  float:right
+}
+/* .alertBox {
+  position: absolute;
+  display: none;
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px 35px 20px 25px;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transform: translateX(calc(100% + 30px));
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.35);
+}
+
+.alertBox.active {
+  transform: translateX(0%);
+}
+
+.alertBox .alertBox-content {
+  display: flex;
+  align-items: center;
+}
+
+.alertBox-content .fas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  min-width: 35px;
+  background-color: #DC3545;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.alertBox-content .message {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.message .text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.message .text.text-1 {
+  font-weight: 600;
+  color: #333;
+}
+
+.alertBox .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.alertBox .close:hover {
+  opacity: 1;
+}
+
+.alertBox .progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+
+}
+
+.alertBox .progress:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+
+.progress.active:before {
+  animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+  100% {
+    right: 100%;
+  }
+} */
+.fa-solid
+{
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
